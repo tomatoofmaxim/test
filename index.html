@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>まきしむのホームページ</title>
+    </head>
+    <body>
+        <h1>まきしむのホームページ</h1>
+        <style>
+            h1{
+                color:cornflowerblue;
+                background-color:aquamarine;
+                padding: 32px;
+                text-shadow: 2px 2px 4px black;
+                font-size: 64px;
+                text-align: center;
+            }
+            h2{
+                color:darkgreen;
+                background-color:chartreuse;
+                border-left: 8px solid coral;
+                padding-left: 8px;
+                margin-top: 32px;
+            }
+            img{
+                border: 12px double goldenrod ;
+                width: 480px;
+                height: 270px;
+                border-radius: 20px;
+            }
+            main{
+                margin: 16px;
+            }
+            .game{
+                color: hotpink;
+                font-size: 20px;
+            }
+            .picture{
+                background-color: khaki;
+            }
+            .food li{
+                color: darkorange;
+            }
+        </style>
+        <main>
+            <h2>人物紹介</h2>
+            <p>
+                こんにちは。東京都市大学付属中学校3年生の木村です。趣味は<span class="game">ゲーム</span>です。
+            </p>
+            <h2>サイト紹介</h2>
+            <p>webサイトのリンクは<a href="file:///C:/cygwin64/home/knawo/work/html_beginner/index.html">こちら</a>！！</p>
+            <h2>好きな食べ物</h2>
+            <ul class="food">
+                <li>納豆</li>
+                <li>海苔</li>
+                <li>🍅</li>
+            </ul>
+            <h2>好きなゲームランキング</h2>
+            <ol>
+                <li>にゃんこ大戦争</li>
+                <li>にゃんこ大泥棒</li>
+                <li>ポケットモンスター剣盾</li>
+            </ol>
+            <h2>写真</h2>
+            <div class="picture">
+                <img src="https://i.imgur.com/HIxTKbe.jpg" alt="東京タワーから見た夜景"/>
+                <img src="https://i.imgur.com/pAQ7QKc.jpg" alt="高尾山から見た朝焼け" />
+            </div>
+            <h2>お問い合わせ</h2>
+            <form action="http://soasa.starfree.jp/form.php">
+                名前:<input type="text" name="name" placeholder="まきしむ">
+                <input type="radio" name="animal" value="dog" />犬派
+                <input type="radio" name="animal" value="cat" />ネコ派
+                <input type="radio" name="animal" value="other" />その他
+                <br />
+                <input type="checkbox" name="music"/>楽器経験がある
+                <br />
+                <textarea name="comment"></textarea>
+                <br />
+                <input type="submit" value="送信する" />
+            </form>
+        </main>
+    </body>
+</html>
